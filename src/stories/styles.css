@@ -1,0 +1,35 @@
+.form {
+  width: 500px;
+  padding: 25px;
+  border-radius: 5px;
+  padding-bottom: 50px;
+  box-shadow: 0px 0px 5px gray;
+}
+.form input {
+  width: 100%;
+  border: none;
+  padding: 8px;
+  outline: none;
+  margin-top: 25px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 3px gray;
+}
+.form button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  color: white;
+  margin-top: 25px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: rgb(65, 65, 201);
+}
+.form button:disabled {
+  cursor: not-allowed;
+  background-color: lightgray;
+}
+.form h1 {
+  font-family: sans-serif;
+}
