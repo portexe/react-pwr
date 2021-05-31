@@ -1,6 +1,6 @@
 import '../../styles.css';
 import { Requirement } from '../Requirement';
-import { useCallback, useEffect } from 'react';
+import React, { useCallback, useEffect } from 'react';
 
 export const Requirements = ({
     value,

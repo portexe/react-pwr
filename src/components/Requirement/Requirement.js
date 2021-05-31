@@ -1,6 +1,6 @@
 import { Xmark } from "../Xmark";
 import { Checkmark } from "../Checkmark";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export const Requirement = ({ value, requirement }) => {
   const [isValid, setIsValid] = useState();

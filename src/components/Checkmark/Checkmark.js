@@ -1,4 +1,5 @@
  // Ported from Alexander Haniotis' code here: https://codepen.io/haniotis/pen/KwvYLO
+import React from "react";
 
 export const Checkmark = () => {
   return (
